@@ -1,0 +1,161 @@
+/* title */
+h1 {
+    display: block;
+    color: cornsilk;
+    font-size: 45px;
+    background: rgb(51, 78, 102);
+    margin: 0 auto ;
+    height: fit-content;
+    text-align: center;
+    font-family: serif;
+    padding: 10px
+}
+
+
+
+
+/* search bar */
+#searchWrapper {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+input {
+    display: block;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+/* product list */
+
+ul {
+   
+    background: rgb(213, 231, 243);
+
+    border: 2px solid blue;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    padding: 20px;
+
+}
+
+
+ /* product title  */
+h2 {
+
+    
+    font-family: cursive;
+    color:rgb(51, 78, 102);
+    border-bottom: rgb(170, 162, 228) 3px solid; 
+    border-style: outset;
+    max-width: 330px;
+    max-height: 200px;
+    padding: 30px;
+    display:block;
+    margin:0px auto;
+    text-align:center;
+
+}
+
+/* product category */
+h3 {
+    max-width: 250px;
+    background: cadetblue;
+    border-radius: 10px;
+    
+    display:block;
+    margin:5px auto 5px;
+    text-align:center;
+    
+
+}
+
+/* product price */
+h3:last-child{
+
+    font-size: 25px;
+    max-width: 250px;
+    background: rgba(76, 154, 156, 0.596);
+    border: darkblue 2px solid;    
+    display:block;
+    margin:5px auto 5px;
+    text-align:center;   
+}
+
+
+/* product description */
+p {
+    background: rgb(139, 200, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+
+    max-width: 200px;
+
+    display:block;
+    margin:0px auto;
+    text-align:center;
+}
+
+img {
+    width: 250px;
+    display:block;
+    margin:0px auto;
+    text-align:center;
+
+    padding: 50px;
+}
+
+
+/* div product */
+
+li.product {
+    list-style: none;
+    background: white;
+    border: rgb(170, 162, 228) 5px solid; 
+    border-style: outset;
+    flex-direction: row;
+    align-items: flex-end;
+
+    margin: 30px;
+    text-align:center;
+    width: fit-content;
+
+    cursor: pointer;
+    transition: ease-in 0.25s;
+
+}
+
+li:hover{
+    transform: scale(1.1);
+    border: midnightblue;
+}
+
+
+
+/* footer  */
+footer{
+    background:rgb(51, 78, 102);
+    padding: 40px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 17px;
+    border: none;
+} 
+
+
+
+footer a {
+    color: white;
+}
+
+
+footer a:hover {
+    color:black;
+    text-decoration: none;
+}
